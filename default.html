@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ page.locale }}"  itemscope itemtype="http://schema.org/WebPage" itemid="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+{% include head.html %}
+<body onload="setModifiedDate(); setAccessedDate();" class="is-preload" itemscope itemtype="http://schema.org/WebPage">
+ <div id="wrapper" class="fade-in">
+<header id="header">
+ <a href="{{ site.baseurl }}{{ site.data.locales[page.locale].blog.site_url }}" class="logo">
+ {% if page.locale %}
+  {{ site.data.locales[page.locale].blog.title }}
+ {% else %}
+  {{ site.title }}
+ {% endif %}
+ </a>
+</header>
+{% include menu.html %}
+  <div id="main">
+      {{ content }}
+  </div>
+  {% include site-footer.html %}
+ </div>
+{% include scripts.html %}
+</body>
+</html>

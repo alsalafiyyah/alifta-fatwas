@@ -1,0 +1,19 @@
+{% if page.locale == 'en' %}
+
+ {{ site.data.locales[page.locale].post.dated }}
+ {{ page.date | date_to_long_string: "ordinal" }}
+
+ {% elsif page.locale == 'ar' %}
+ {{ site.data.locales[page.locale].post.dated }}
+ {{ page.date | date_to_long_string: "ordinal" }}
+
+ {% elsif page.locale == 'es' %}
+ {{ site.data.locales[page.locale].post.dated }}
+ {% assign months = "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre" | split: "|" %}
+ {% assign m = page.date | date: "%-m" | minus: 1 %}
+ {% assign day = page.date | date: "%d" %}
+ {% assign month = months[m] %}
+ {% assign year = page.date | date: "%Y" %}
+ <span class="date">{{ day }}/{{ month }}/{{ year }}</span>
+
+{% endif %}

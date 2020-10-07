@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+<p class="post-date {{ page.locale }}">
+ {% include date.html %}
+</p>
+<h3 class="{{ page.locale }}">
+  {{ page.title }}
+</h3>
+
+<div class="post-content {{ page.locale }}">
+  {{ content }}
+
+{% if page.end %}
+ {{ site.data.locales[page.locale].post.end }}
+{% endif %}
+ 
+</div>
+
+{% include page-footer.html %}

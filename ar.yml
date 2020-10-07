@@ -1,0 +1,82 @@
+name: عربى
+
+blog:
+  title: "فتاوى اللجنة الدائمة"
+  description: 
+  author: Instagram@Alsalafiyyah
+  site_url: /ar/
+
+vol:
+  - title: "مجلد رقم 1"
+    url: "/ar/1"
+  - title: "مجلد رقم 2"
+    url: /ar/2/
+  - title: "مجلد رقم 3"
+    url: /ar/3/
+
+menu:
+  - name: الرئيسية
+    link: /ar/
+    active: home
+  - name: تصفح
+    link: /ar/topic
+    active: topic
+  - name: الوهابية
+    link: /ar/wahhabism/
+    active: wahhabiyah
+  - name: الرد
+    link: /ar/refutations/
+    active: refutations
+
+page:
+  next: التالي
+  prev: السابق
+  more: المزيد
+  categories: التصنيفات
+  basmalah: بسم الله الرحمن الرحيم
+
+post:
+  dated: "تاريخ النشر في الموقع : "
+  print: طباعة
+  share: مشاركة
+  related_fatwas: فتاوى ذات صلة
+  comments: التعليقات
+  book: الكتاب
+  vol: المجلد
+  end: "وبالله التوفيق. وصلى الله على نبينا محمد، وآله وصحبه وسلم."
+  deputy: الرئيس
+  chairman: نائب رئيس اللجنة
+  member: عضو
+
+binbaz:
+  name: الشيخ عبدالعزيز بن باز
+  url: /biography/binbaz/
+
+books: 
+  - name: "الصلاة"
+    link: "/books/salah/"
+  - name: "الصيام"
+    link: "/books/shawm/"
+  - name: "الزكاة"
+    link: "/books/zakah/"
+  - name: "الطهارة"
+    link: "/books/taharah/"  
+  - name: "الدعوة"
+    link: "/books/dawah/"
+  - name: "الحسبة"
+    link: "/books/hisbah/"
+  - name: "العلم"
+    link: "/books/ilm/"
+  - name: "النكاح"
+    link: "/books/nikah/"
+  - name: "الطلاق"
+    link: "/books/talaq/"
+  - name: "النساء"
+    link: "/books/women/"
+  - name: "الإيمان"
+    link: "/books/iman/"
+  - name: "الولاء والبراء"
+    link: "/books/walabara/"
+
+
+

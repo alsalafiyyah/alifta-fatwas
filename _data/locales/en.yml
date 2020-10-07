@@ -1,0 +1,81 @@
+name: English
+
+blog:
+  title: Fatwas of The Permanent Committee
+  description: 
+  author: Instagram@Alsalafiyyah
+  site_url: /en/
+
+vol:
+  - title: "Volume 1"
+    url: "/ar/1"
+  - title: "Volume 2"
+    url: /ar/2/
+  - title: "Volume 3"
+    url: /ar/3/
+
+menu:
+  - name: Home
+    link: /
+    active: home
+  - name: Browse by volume
+    link: /volume/
+    active: volume
+  - name: Picked for you
+    link: /feature/
+    active: feature
+  - name: Refutals
+    link: /refutations/
+    active: refutations
+
+page:
+  next: Next
+  prev: Prev
+  more: Read more
+  categories: Categories
+  basmalah: "In the Name of Allah, the Most Beneficent, the Most Merciful."
+
+post:
+  dated: "Posted on:"
+  print: Print
+  share: Share on
+  related_fatwas: Related fatwas
+  comments: Comments
+  book: Book
+  vol: Vol
+  end: "May Allah grant us success. May peace and blessings be upon our Prophet Muhammad, his family, and Companions."
+  deputy: Deputy
+  chairman: Deputy Chairman
+  member: Member
+
+binbaz:
+  name: Shaykh Abdul-Aziz Ibn Baz
+  url: /biography/binbaz/
+
+books: 
+  - name: "Salah (Prayers)"
+    link: "/books/salah/"
+  - name: "Shawm (Fasting)"
+    link: "/books/shawm/"
+  - name: "Zakah (Charity)"
+    link: "/books/zakah/"
+  - name: "Taharah (Purification)"
+    link: "/books/taharah/"  
+  - name: "Da'wah (Calling to Allah)"
+    link: "/books/dawah/"
+  - name: "Hisbah"
+    link: "/books/hisbah/"
+  - name: "Ilm (Knowledge)"
+    link: "/books/ilm/"
+  - name: "Nikah (Marriage)"
+    link: "/books/nikah/"
+  - name: "Talaq (Divorce)"
+    link: "/books/talaq/"
+  - name: "Women"
+    link: "/books/women/"
+  - name: "Iman (Faith)"
+    link: "/books/iman/"
+  - name: "Al-Wala' Wal-Bara'"
+    link: "/books/walabara/"
+    
+    

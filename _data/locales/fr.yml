@@ -1,0 +1,84 @@
+name: Français
+
+blog:
+  title: Fatwas du Comité Permanent
+  description: 
+  author: Instagram@Alsalafiyyah
+  site_url: /fr/
+
+menu:
+  - name: "D'accueil"
+    link: /
+    active: home
+  - name: Muqolat
+    link: /muqolat/
+    active: muqolat
+  - name: Fatwas
+    link: /fatwas/
+    active: fatwas
+  - name: Browse
+    link: /topic
+    active: topic
+  - name: Downloads
+    link: /downloads/
+    active: downloads
+  - name: Wahhabiyah
+    link: /wahhabism/
+    active: wahhabiyah
+  - name: Refutals
+    link: /refutations/
+    active: refutations
+    
+page:
+  next: Suivant
+  prev: Précédent
+  more: Plus
+  categories: Catégories
+  basmalah: "En el nombre de Alá, el Compasivo, el Misericordioso!"
+  contact: Contacter
+
+post:
+  dated: "Publicado el:"
+  print: Print
+  share: Compartir
+  related_fatwas: Fatwas relacionados
+  comments: Comentarios
+  book: Book
+  vol: Vol
+  end: "¡Que Allah nos conceda el éxito! ¡Que Allah bendiga a nuestro profeta Muhammad, su Familia y sus Compañeros!"
+  deputy: Président
+  chairman: Vice-président du Comité
+  member: Membre
+  suggestion: te pueden interesar
+
+binbaz:
+  name: Shaykh Abdul-Aziz Ibn Baz
+  url: /biography/binbaz/
+
+books: 
+  - name: "Salah (Prayers)"
+    link: "/books/salah/"
+  - name: "Shawm (Fasting)"
+    link: "/books/shawm/"
+  - name: "Zakah (Charity)"
+    link: "/books/zakah/"
+  - name: "Taharah (Purification)"
+    link: "/books/taharah/"  
+  - name: "Da'wah (Calling to Allah)"
+    link: "/books/dawah/"
+  - name: "Hisbah"
+    link: "/books/hisbah/"
+  - name: "Ilm (Knowledge)"
+    link: "/books/ilm/"
+  - name: "Nikah (Marriage)"
+    link: "/books/nikah/"
+  - name: "Talaq (Divorce)"
+    link: "/books/talaq/"
+  - name: "Women"
+    link: "/books/women/"
+  - name: "Iman (Faith)"
+    link: "/books/iman/"
+  - name: "Al-Wala' Wal-Bara'"
+    link: "/books/walabara/"
+    
+    

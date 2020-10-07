@@ -1,0 +1,104 @@
+# Site settings
+title:          Online Fatwas
+description:    "Salafi blog and knowledge of Shari'ah"
+baseurl:        "/alifta"
+url:            "https://alsalafiyyah.github.io"
+paginate:       1
+paginate_path: "/en/:num/"
+markdown:       kramdown
+safe: true
+future: true
+locales: ["en", "ar", "es", "fr"]
+remote_theme: alsalafiyyah/massively-jekyll-theme
+include:
+  - _pages
+  
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+
+tipue_search:
+  include:
+    pages: false
+  exclude:
+    files: [index.html, search.html, sitemap.xml, feed.xml, docs, BingSiteAuth.xml, Gemfile.lock, Gemfile, manifest.yml, refutal.html, wahhabi.html, muqolat]
+
+# multiple language
+defaults:
+  # default en
+  - values:
+      locale: en
+  # config posts
+  - scope:
+      path: "_posts/en/**"
+      type: posts
+    values:
+      layout: post
+      permalink: /en/:title
+  - scope:
+      path: _posts/ar/**
+      type: posts
+    values:
+      layout: post
+      locale: ar
+      permalink: /ar/:title
+  - scope:
+      path: _posts/es/**
+      type: posts
+    values:
+      layout: post
+      locale: es
+      permalink: /es/:title
+  - scope:
+      path: _posts/fr/**
+      type: posts
+    values:
+      layout: post
+      locale: fr
+      permalink: /fr/:title
+  # config pages
+  - scope: 
+      path: _en/**
+    values: 
+      locale: en
+  - scope: 
+      path: _ar/**
+    values: 
+      locale: ar
+  - scope: 
+      path: _es/**
+    values: 
+      locale: es
+  - scope: 
+      path: _fr/**
+    values: 
+      locale: fr
+
+collections:
+  refutals:
+    output: true
+    permalink: /refutals/:path/
+  wahhabism:
+    output: true
+    permalink: /wahhabism/:path/
+  muqolat:
+    output: true
+    permalink: /muqolat/:title/
+  ar:
+    output: true
+  en: 
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - liquid
+  - jekyll-liquify
+
+exclude:
+  - Gemfile
+  - .gitignore
+  - Gemfile.lock

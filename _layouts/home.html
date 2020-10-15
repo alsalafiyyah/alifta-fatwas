@@ -13,16 +13,6 @@ layout: default
   {% else %}
   {% assign posts = site.posts %}
   {% endif %}
-  {% for post in paginator.posts %}
-   <tr>
-    <td>
-     {{ post.date | date_to_string: "ordinal" }}
-    </td>
-    <td>
-     <a href="{{ post_url }}">{{ post.title }}</a>
-    </td>
-   </tr>
-  {% endfor %}
   {% assign posts = paginator.posts | default: site.posts | where:"locale", page.locale %}
   {% for post in posts %}
   {% if post.locale == 'en' %}

@@ -49,6 +49,7 @@ post:
   members: Members
   shaykh: Shaykh
   source: Source
+  translate: Translate
 
 binbaz:
   name: Shaykh Abdul-Aziz Ibn Baz

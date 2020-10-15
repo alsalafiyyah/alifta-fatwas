@@ -2,21 +2,29 @@
 layout: default
 ---
 
-{% include lang.html %}
-<p class="post-date {{ page.locale }}">
- {% include date.html %}
-</p>
-<h3 class="{{ page.locale }}">
-  {{ page.title }}
-</h3>
+{% if page.date %}
+<article class="post {{ page.locale }}" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="post-content {{ page.locale }}">
+<header class="major">
+ <meta content='{{ post.date | date_to_xmlschema }}' itemprop='dateModified'/>
+ <span class="date">
+  {% if site.date %}
+   <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+  {% endif %}
+  {% include date.html %}
+ </span>
+  <h3 itemprop="name headline">{{ page.title }}</h3>
+</header>
+ 
+  <div itemprop="articleBody">
   {{ content }}
-
 {% if page.end %}
  {{ site.data.locales[page.locale].post.end }}
 {% endif %}
+  </div>
  
-</div>
+  {% include lang.html %}
+  {% include page-footer.html %}
 
-{% include page-footer.html %}
+</article>
+{% endif %}

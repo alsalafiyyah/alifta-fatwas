@@ -46,9 +46,11 @@ post:
   vol: المجلد
   end: "وبالله التوفيق. وصلى الله على نبينا محمد، وآله وصحبه وسلم."
   deputy: الرئيس
-  chairman: نائب رئيس اللجنة
-  member: عضو
-
+  deputy_chairman: نائب رئيس اللجنة
+  members: عضو
+  shaykh: Shaykh
+  source: Source
+  
 binbaz:
   name: الشيخ عبدالعزيز بن باز
   url: /biography/binbaz/

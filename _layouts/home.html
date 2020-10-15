@@ -18,9 +18,12 @@ layout: default
    {% else %}
     {% assign posts = site.posts %}
    {% endif %}
-   {% assign posts = paginator.posts | default: site.posts | where:"locale", page.locale %}
-   {% for post in posts %}
-   {% assign post_url = post.url | relative_url %}
+      
+ {% assign posts = paginator.posts | default: site.posts | where:"locale", page.locale %}
+ {% for post in posts %}
+ {% assign post_url = post.url | relative_url %}
+  {% if post.locale != page.locale %}
+  {% if post.locale == 'en' %}
    <tr>
     <td>
      {{ post.date | date_to_string: "ordinal" }}
@@ -29,7 +32,10 @@ layout: default
      <a href="{{ post_url }}">{{ post.title }}</a>
     </td>
    </tr>
-   {% endfor %}
+   {% else %}
+  {% endif %}
+  {% endif %}
+ {% endfor %}
     </tbody>
   </table>
 </div>

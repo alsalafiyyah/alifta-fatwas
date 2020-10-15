@@ -7,16 +7,17 @@ layout: default
 <div class="table-wrapper {{ page.locale }}">
   <table class="{{ page.locale }}">
     <tbody>
-   {% if page.locale %}
-   {% assign posts = paginator.posts | where:"locale", page.locale %}
-   {% else %}
-    {% assign posts = site.posts %}
-   {% endif %}
-  
+
+  {% if page.locale %}
+  {% assign posts = paginator.posts | where:"locale", page.locale %}
+  {% else %}
+  {% assign posts = site.posts %}
+  {% endif %}
   {% assign posts = paginator.posts | default: site.posts | where:"locale", page.locale %}
   {% for post in posts %}
   {% if post.locale == 'en' %}
   {% assign post_url = post.url | relative_url %}
+      
    <tr>
     <td>
      {{ post.date | date_to_string: "ordinal" }}

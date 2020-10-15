@@ -94,8 +94,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-sitemap
-  - liquid
-  - jekyll-liquify
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile

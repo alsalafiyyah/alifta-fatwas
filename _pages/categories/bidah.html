@@ -6,17 +6,20 @@ permalink: /bidah/
 
 {% include breadcrumbs.html %}
 <article>
-<div class="box">
-<h4>Bid'ahs</h4>
-<ul class="posts">
-  {% for post in site.categories.bidah %}
-    {% if post.url %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endif %}
-    {% else %}
-    <p>{{site.data.settings.page.no-fatwas}}</p>
-  {% endfor %}
-</ul>
+<div class="table-wrapper" itemscope itemtype="https://schema.org/Table">
+  <table>
+    <tbody>
+      {% for post in site.categories.bidah %}
+      <tr>
+        <td>{{ post.hijri }}</td>
+        <td>
+          {% if post.url %}<a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a>{% endif %}
+        </td>
+      </tr>
+      {% else %}
+      <p{{site.data.settings.page.no-fatwas}}</p>
+      {% endfor %}
+    </tbody>
+  </table>
 </div>
 </article>

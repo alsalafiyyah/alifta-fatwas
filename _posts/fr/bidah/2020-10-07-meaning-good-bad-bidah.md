@@ -1,5 +1,6 @@
 ---
 layout: post
+locale: fr
 title: "On désigne par 'innovation' les bonnes et les mauvaises"
 publisher: "alsalafiyyah@icloud.com"
 source: "Fatwas du Comité Permanent no. 948-3"

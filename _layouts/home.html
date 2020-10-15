@@ -14,7 +14,7 @@ layout: default
     </thead>
     <tbody>
    {% assign posts = site.posts | where: "locale", page.locale %}
-   {% for post in posts %}
+   {% for post in paginator.posts %}
    {% assign post_url = post.url | relative_url %}
    <tr>
     <td>

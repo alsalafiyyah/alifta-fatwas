@@ -16,7 +16,7 @@ layout: default
    {% if page.locale %}
     {% assign posts = site.posts | where:"locale", page.locale %}
    {% else %}
-    {% assign posts = paginator.posts %}
+    {% assign posts = page.posts %}
    {% endif %}
    {% for post in paginator.posts %}
    {% assign post_url = post.url | relative_url %}

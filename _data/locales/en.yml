@@ -45,8 +45,10 @@ post:
   vol: Vol
   end: "May Allah grant us success. May peace and blessings be upon our Prophet Muhammad, his family, and Companions."
   deputy: Deputy
-  chairman: Deputy Chairman
-  member: Member
+  deputy_chairman: Deputy Chairman
+  members: Members
+  shaykh: Shaykh
+  source: Source
 
 binbaz:
   name: Shaykh Abdul-Aziz Ibn Baz

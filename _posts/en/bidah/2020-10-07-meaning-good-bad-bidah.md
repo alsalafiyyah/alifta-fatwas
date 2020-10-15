@@ -5,6 +5,7 @@ title: "Meaning of good and bad Bid'ah"
 publisher: "alsalafiyyah@icloud.com"
 source: "Fatwas of Permanent Commitee no. 948-3"
 lang: en
+category: [bidah]
 hijri: Safar 20, 1442 AH
 excerpt: "Bid‘ah can also be in religion. It may fall under 'Aqidah or 'Ibadah, whether in words or actions, such as denying predestination,building Masjids (mosques) and shrines over graves, reciting the Qur'an over the dead, and celebrating the Mawlidto commemorate dead or renowned people, seeking the help of anyone other than Allah, and circumambulating shrines."
 uid: meaning-good-bad-bidah

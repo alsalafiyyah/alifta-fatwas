@@ -62,7 +62,8 @@
    {% else %}
   {% endif %}
 {% endif %}
-<dt>{% include lang.html %}</dt>
+<dt>{{ site.data.locales[page.locale].post.translate }}:</dt>
+ <dd>{% include lang.html %}</dd>
 {% include share.html %}
 {% if page.date %}
    <dt><span id='last-modified'></span></dt>

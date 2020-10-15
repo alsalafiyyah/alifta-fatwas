@@ -1,5 +1,6 @@
 ---
 layout: post
+locale: en
 title: "Meaning of good and bad Bid'ah"
 publisher: "alsalafiyyah@icloud.com"
 source: "Fatwas of Permanent Commitee no. 948-3"

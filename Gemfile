@@ -8,6 +8,5 @@ group :jekyll_plugins do
   gem 'github-pages', group: :jekyll_plugins
   gem 'jekyll-remote-theme'
   gem 'jekyll-paginate'
-  gem 'liquid'
-  gem 'jekyll-liquify'
+  gem "jekyll-redirect-from"
 end

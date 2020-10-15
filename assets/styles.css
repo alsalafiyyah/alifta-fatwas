@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+ul.lang li {
+  display:inline;
+  margin-right: 10px;
+}
+
 form.search_ input[type=text] {
   padding: 10px;
   font-size: 17px;

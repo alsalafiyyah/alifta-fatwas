@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Bid'ah (Innovations in Religion)"
+permalink: /bidah/
+---
+
+<div class="box">
+<h4>Bid'ahs</h4>
+<ul class="posts">
+  {% for post in site.categories.bidah %}
+    {% if post.url %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif %}
+    {% else %}
+    <p>{{site.data.settings.page.no-fatwas}}</p>
+  {% endfor %}
+</ul>
+</div>

@@ -14,12 +14,11 @@ layout: default
     </thead>
     <tbody>
    {% if page.locale %}
-      
    {% assign posts = paginator.posts | where:"locale", page.locale %}
    {% else %}
     {% assign posts = site.posts %}
    {% endif %}
-   {% assign posts = paginator.posts | default: site.posts %}
+   {% assign posts = paginator.posts | default: site.posts | where:"locale", page.locale %}
    {% for post in posts %}
    {% assign post_url = post.url | relative_url %}
    <tr>

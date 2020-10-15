@@ -6,12 +6,6 @@ layout: default
 <h3></h3>
 <div class="table-wrapper {{ page.locale }}">
   <table class="{{ page.locale }}">
-    <thead>
-      <tr class="{{ page.locale }}">
-        <th>Date</th>
-        <th>Title</th>
-      </tr>
-    </thead>
     <tbody>
    {% if page.locale %}
    {% assign posts = paginator.posts | where:"locale", page.locale %}
@@ -19,11 +13,11 @@ layout: default
     {% assign posts = site.posts %}
    {% endif %}
       
- {% assign posts = paginator.posts | default: site.posts | where:"locale", page.locale %}
- {% for post in posts %}
- {% assign post_url = post.url | relative_url %}
+  {% assign posts = paginator.posts | default: site.posts | where:"locale", page.locale %}
   {% if post.locale != page.locale %}
   {% if post.locale == 'en' %}
+  {% for post in posts %}
+  {% assign post_url = post.url | relative_url %}
    <tr>
     <td>
      {{ post.date | date_to_string: "ordinal" }}
@@ -33,9 +27,10 @@ layout: default
     </td>
    </tr>
    {% else %}
+  {% endfor %}
   {% endif %}
   {% endif %}
- {% endfor %}
+      
     </tbody>
   </table>
 </div>

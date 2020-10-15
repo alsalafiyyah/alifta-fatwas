@@ -15,7 +15,7 @@ layout: default
     <tbody>
    {% if page.locale %}
       
-   {% assign posts = site.posts | where:"locale", page.locale %}
+   {% assign posts = paginator.posts | where:"locale", page.locale %}
    {% else %}
     {% assign posts = site.posts %}
    {% endif %}

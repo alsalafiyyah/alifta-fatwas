@@ -6,6 +6,7 @@ publisher: "alsalafiyyah@icloud.com"
 source: "Fatwas of The Permanent Committe no. 2139-1"
 lang: en
 hijri: Safar 8, 1442 AH
+category: [bidah]
 excerpt: "The Hadith of the Prophet (peace be upon him): Beware of newly invented things (in religion) includes all things which people have introduced into the Islamic religion."
 uid: meaning-bidah
 end: true

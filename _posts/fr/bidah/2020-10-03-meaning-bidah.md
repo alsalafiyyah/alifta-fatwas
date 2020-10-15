@@ -1,5 +1,6 @@
 ---
 layout: post
+locale: fr
 title: "Signification des innovations hérétiques"
 publisher: "alsalafiyyah@icloud.com"
 source: "Fatwas du Comité Permanent no. 2139-1"

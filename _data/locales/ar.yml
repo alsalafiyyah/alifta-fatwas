@@ -6,14 +6,6 @@ blog:
   author: Instagram@Alsalafiyyah
   site_url: /ar/
 
-vol:
-  - title: "مجلد رقم 1"
-    url: "/ar/1"
-  - title: "مجلد رقم 2"
-    url: /ar/2/
-  - title: "مجلد رقم 3"
-    url: /ar/3/
-
 menu:
   - name: الرئيسية
     link: /ar/
@@ -51,6 +43,8 @@ post:
   shaykh: الشيخ
   source: المصدر
   translate: ترجمة
+  comment: أضف تعليقاً
+  views: المشاهدات
   
 binbaz:
   name: الشيخ عبدالعزيز بن باز

@@ -1,5 +1,6 @@
 ---
 layout: post
+locale: en
 title: "The meaning of 'Newly invented things'"
 publisher: "alsalafiyyah@icloud.com"
 source: "Fatwas of The Permanent Committe no. 2139-1"

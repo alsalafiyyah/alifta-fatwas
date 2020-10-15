@@ -48,8 +48,9 @@ post:
   deputy: الرئيس
   deputy_chairman: نائب رئيس اللجنة
   members: عضو
-  shaykh: Shaykh
-  source: Source
+  shaykh: الشيخ
+  source: المصدر
+  translate: اللغة
   
 binbaz:
   name: الشيخ عبدالعزيز بن باز

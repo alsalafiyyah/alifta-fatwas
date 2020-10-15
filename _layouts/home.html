@@ -12,11 +12,10 @@ layout: default
    {% else %}
     {% assign posts = site.posts %}
    {% endif %}
-      
+  
   {% assign posts = paginator.posts | default: site.posts | where:"locale", page.locale %}
-  {% if post.locale != page.locale %}
-  {% if post.locale == 'en' %}
   {% for post in posts %}
+  {% if post.locale == 'en' %}
   {% assign post_url = post.url | relative_url %}
    <tr>
     <td>
@@ -27,9 +26,8 @@ layout: default
     </td>
    </tr>
    {% else %}
+  {% endif %}
   {% endfor %}
-  {% endif %}
-  {% endif %}
       
     </tbody>
   </table>

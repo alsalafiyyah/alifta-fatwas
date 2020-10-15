@@ -26,6 +26,14 @@ layout: default
     </td>
    </tr>
    {% else %}
+   <tr>
+    <td>
+     {{ post.date | date_to_string: "ordinal" }}
+    </td>
+    <td>
+     <a href="{{ post_url }}">{{ post.title }}</a>
+    </td>
+   </tr>
   {% endif %}
   {% endfor %}
       

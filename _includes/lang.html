@@ -1,5 +1,6 @@
 {% if page.uid %}
 <div class="language-selector">
+  <ul class="lang">
   {% assign postsOrPages = site.posts 
     | concat: site.pages 
     | concat: site.ar 
@@ -8,7 +9,6 @@
   {% for item in postsOrPages %}
   <!-- filter /page/ -->
   {% unless item.url contains '/page/' %} 
-  <ul class="lang">
   <li><a href="{{ site.baseurl }}{{ item.url }}" class="{{ item.locale }} btn btn-link">
     {{ site.data.locales[item.locale].name }}
   </a>
@@ -21,5 +21,6 @@
     </li>
   {% endunless %}
   {% endfor %}
+  </ul>
 </div>
 {% endif%}

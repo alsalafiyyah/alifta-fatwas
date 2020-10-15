@@ -2,7 +2,7 @@
 baseurl:        "/alifta"
 url:            "https://alsalafiyyah.github.io"
 paginate:       1
-paginate_path: "/en/:num/"
+paginate_path: "/:num/"
 markdown:       kramdown
 safe: true
 future: true

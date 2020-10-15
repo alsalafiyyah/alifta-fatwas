@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "El significado de la bid'ah (innovación en la religión)"
+locale: es
 publisher: "alsalafiyyah@icloud.com"
 source: "Fatwas del Comité Permanente no.2139-1"
 lang: es

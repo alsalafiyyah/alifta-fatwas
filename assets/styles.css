@@ -4,7 +4,27 @@
 * {
   box-sizing: border-box;
 }
-
+ol.breadcrumb {
+  padding: 0px 16px 24px;
+  list-style: none;
+}
+ol.breadcrumb li {
+  display: inline;
+}
+ol.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ol.breadcrumb li .active {
+  font-weight: bold;
+}
+ol.breadcrumb li a {
+  text-decoration: none;
+}
+ol.breadcrumb li a:hover {
+  text-decoration: underline;
+}
 ul.lang li {
   display:inline;
   margin-right: 10px;

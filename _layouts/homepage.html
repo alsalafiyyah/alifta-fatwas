@@ -8,7 +8,7 @@ layout: default
 <ul class="posts">
   {% for post in site.categories.bidah | limit:3 %}
     {% if post.url %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <li><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
     </li>
     {% endif %}
     {% else %}
@@ -22,7 +22,7 @@ layout: default
 <ul class="posts">
   {% for post in site.categories.walabara | limit:3 %}
     {% if post.url %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <li><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
     </li>
     {% endif %}
     {% else %}

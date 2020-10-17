@@ -6,7 +6,8 @@ source: "Fatawa Al-Lajnah Al-Da'imah of KSA no. 11754-1"
 category: [walabara]
 hijri: Dhul-Hijjah 6, 1441 AH
 lang: en
-note: true
+end: true
+locale: en
 uid: ruling-on-giving-kafir-udhiyah
 excerpt: "It is permissible to give a non-Muslim from the meat of an Ud-hiyah or ‘Aqiqah, as a way of showing kindness to neighbors and discharging neighborhood duties."
 muftis:

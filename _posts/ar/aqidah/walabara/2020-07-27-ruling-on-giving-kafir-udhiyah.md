@@ -6,7 +6,8 @@ source: "اللجنة الدائمة رقم (11754-1)"
 category: [walabara]
 hijri: ذو الحجة 6, 1441 هـ
 lang: ar
-note: true
+end: true
+locale: ar
 uid: ruling-on-giving-kafir-udhiyah
 excerpt: "تجوز الهدية إلى الكافر من الأضحية والعقيقة، وذلك إحسانًا إلى الجار، وأداء لحق الجوار."
 muftis:

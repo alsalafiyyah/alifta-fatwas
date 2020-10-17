@@ -4,7 +4,7 @@ title: "حكم إهداء الكافر من الأضحية والعقيقة"
 publisher: "alsalafiyyah@icloud.com"
 source: "اللجنة الدائمة رقم (11754-1)"
 category: [walabara]
-hijri: Dhul-Hijjah 6, 1441 AH
+hijri: ذو الحجة 6, 1441 هـ
 lang: ar
 note: true
 uid: ruling-on-giving-kafir-udhiyah

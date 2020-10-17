@@ -18,7 +18,7 @@ muftis:
       url: /biography/afifi/
   members: 
     - name: Shaykh Abdullah ibn Ghudayyan
-      url: /biography/fawzan/
+      url: /biography/ghudayyan/
 ---
 
 Question: 

@@ -18,7 +18,7 @@ muftis:
       url: /biography/afifi/
   members: 
     - name: الشيخ عبد الله بن غديان
-      url: /biography/fawzan/
+      url: /biography/ghudayyan/
 ---
 
 السؤال:

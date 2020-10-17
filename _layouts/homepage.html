@@ -4,7 +4,7 @@ layout: default
 
 <article>
 <div class="box">
-<h2><a href="/bidah">Bid'ahs</a></h2>
+<h2><a href="{{ '/bidah/' | prepend:site.baseurl }}">Bid'ahs</a></h2>
 <ul class="posts">
   {% for post in site.categories.bidah | limit:3 %}
     {% if post.url %}
@@ -18,7 +18,7 @@ layout: default
 </div>
 
 <div class="box">
-  <h2><a href="/walabara">Al-Wala Wal-Bara'</a></h2>
+  <h2><a href="{{ '/walabara/' | prepend:site.baseurl }}">Al-Wala Wal-Bara'</a></h2>
 <ul class="posts">
   {% for post in site.categories.walabara | limit:3 %}
     {% if post.url %}

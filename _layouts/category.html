@@ -11,7 +11,7 @@ layout: default
  {% endif %}
 {% endfor %}
   <ol>
-     {% assign site.categories[page.category] = site.posts | where: "locale", page.locale | sort: "locale" %}
+     {% assign site.categories = site.posts | sort: "locale" %}
     {% for p in site.categories[page.category] %}
       <li>
         <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>

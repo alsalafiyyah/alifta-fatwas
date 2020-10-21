@@ -59,18 +59,4 @@ layout: default
 </ul>
 </div>
   
-<ul class="categories">
-{% for category in site.categories %}
-  <li><a name="{{ category }}">{{ category }}</a>
-    <ul>
-    {% assign posts=site.posts | where:"loacle", "en" %}      
-    {% for post in posts %}
-      {% if post.categories contains category %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  </li>
-{% endfor %}
-</ul>
 </article>

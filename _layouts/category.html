@@ -16,8 +16,14 @@ layout: default
 </ol>
 
 <article>
+{% for post in site.categories[page.category] %}
+  {% if post.locale == 'en' %}
+   {{ post.title }}
+  {% elseif post.locale== 'ar' %}
+   {{ post.title }}
+  {% endif %}
+{% endfor %}
   <ol>
-    {% assign p = site.categories | sort: "locale" %}
     {% for p in site.categories[page.category] %}
       <li>
         <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>

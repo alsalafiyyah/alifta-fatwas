@@ -16,6 +16,19 @@ layout: default
     </li>
   {% endif %}
 {% endfor %}
+
+{% for c in site.categories %}
+  {% assign selectedPosts = c.last | where:"locale", "ar" %}
+  {% if selectedPosts.size > 0 %}
+    <li>Category {{ c.first }} :
+      <ul>
+        {% for post in selectedPosts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endif %}
+{% endfor %}
 </ul>
 
 <div class="box">

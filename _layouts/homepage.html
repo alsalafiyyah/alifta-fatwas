@@ -8,7 +8,7 @@ layout: default
   {% assign selectedPosts = c.last | where:"locale", "en" %}
   {% if selectedPosts.size > 0 %}
   <div class="box">
-    <li><a href="{{ site.baseurl }}/en/category/{{ c.first }}">
+    <li><a href="{{ site.baseurl }}/categories/{{ c.first }}">
       <b>{{ c.first | capitalize }}</b>
       </a> :
       <ul>

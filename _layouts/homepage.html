@@ -8,8 +8,8 @@ layout: default
   {% assign selectedPosts = c.last | where:"locale", "en" %}
   {% if selectedPosts.size > 0 %}
   <div class="box">
-    <li><a href="{{ site.baseurl }}/{{ c.first }}">
-      <b>{{ c.first | capitalize }} ({{ c.first.size }})</b>
+    <li><a href="{{ site.baseurl }}/category/{{ c.first }}">
+      <b>{{ c.first | capitalize }}</b>
       </a> :
       <ul>
         {% for post in selectedPosts %}
@@ -24,6 +24,7 @@ layout: default
 {% for c in site.categories %}
   {% assign selectedPosts = c.last | where:"locale", "ar" %}
   {% if selectedPosts.size > 0 %}
+  <div class="box">
     <li>Category {{ c.first }} :
       <ul>
         {% for post in selectedPosts %}
@@ -31,6 +32,7 @@ layout: default
         {% endfor %}
       </ul>
     </li>
+  </div>
   {% endif %}
 {% endfor %}
 </ul>

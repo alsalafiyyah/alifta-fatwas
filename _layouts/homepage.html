@@ -9,7 +9,7 @@ layout: default
   {% if selectedPosts.size > 0 %}
   <div class="box">
     <li><a href="{{ site.baseurl }}/{{ c.first }}">
-      <b>{{ c.first | capitalize }} ({{ c.first | size }})</b>
+      <b>{{ c.first | capitalize }} ({{ c.first.size }})</b>
       </a> :
       <ul>
         {% for post in selectedPosts %}

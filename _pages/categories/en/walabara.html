@@ -24,5 +24,23 @@ permalink: /en/category/walabara/
     </tbody>
   </table>
 </div>
+
+<div class="table-wrapper" itemscope itemtype="https://schema.org/Table">
+  <table>
+    <tbody>
+      {% assign resindex = site.posts | where:"category","walabara", | where:"locale","ar" | sort:"title" %}
+      {% for post in resindex %}
+      <tr>
+        <td>{{ post.hijri }}</td>
+        <td>
+          {% if post.url %}<a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a>{% endif %}
+        </td>
+      </tr>
+      {% else %}
+       {{site.data.settings.page.no-fatwas}}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
   
 </article>

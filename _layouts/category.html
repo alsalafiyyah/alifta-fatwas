@@ -3,20 +3,15 @@ layout: default
 ---
 
 <article>
+  
 {% if page.locale %}
-  {% assign posts = site.categories[page.category] | where:"locale", page.locale %}
+{% assign posts = site.categories[page.category] | where:"locale", page.locale %}
 {% endif %}
+<ol>
 {% assign posts = site.categories[page.category] | where:"locale", page.locale %}
 {% for post in posts %}
-  <li>{{ post.title }}</li>
+  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-
-  <ol>
-     {% assign site.categories = site.posts | sort: "locale" %}
-    {% for p in site.categories[page.category] %}
-      <li>
-        <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
-      </li>
-    {% endfor %}
-  </ol>
+</ol>
+  
 </article>

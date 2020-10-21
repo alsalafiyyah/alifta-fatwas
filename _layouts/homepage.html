@@ -4,16 +4,18 @@ layout: default
 
 <article>
 <ul class="post-list">
-{% for c in site.categories %}
+{% for c in site.categories | limit:3 %}
   {% assign selectedPosts = c.last | where:"locale", "en" %}
   {% if selectedPosts.size > 0 %}
-    <li>Category {{ c.first }} :
+  <div class="box">
+    <li>Category <a href="{{ c.first | prepend:site.baseurl }}"><b>{{ c.first }}</b></a> :
       <ul>
         {% for post in selectedPosts %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     </li>
+  </div>
   {% endif %}
 {% endfor %}
 

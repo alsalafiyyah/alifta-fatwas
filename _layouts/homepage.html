@@ -8,7 +8,7 @@ layout: default
   {% assign selectedPosts = c.last | where:"locale", "en" %}
   {% if selectedPosts.size > 0 %}
   <div class="box">
-    <li><a href="{{ site.baseurl }}/category/{{ c.first }}">
+    <li><a href="{{ site.baseurl }}/en/category/{{ c.first }}">
       <b>{{ c.first | capitalize }}</b>
       </a> :
       <ul>
@@ -21,15 +21,15 @@ layout: default
   {% endif %}
 {% endfor %}
 
-{% for c in site.categories | limit:3 %}
+{% for c in site.categories %}
   {% assign selectedPosts = c.last | where:"locale", "ar" %}
   {% if selectedPosts.size > 0 %}
   <div class="box">
-    <li><a href="{{ site.baseurl }}/category/{{ c.first }}">
+    <li><a href="{{ site.baseurl }}/ar/category/{{ c.first }}">
       <b>{{ c.first | capitalize }}</b>
       </a> :
       <ul>
-        {% for post in selectedPosts %}
+        {% for post in selectedPosts  | limit:3 %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>

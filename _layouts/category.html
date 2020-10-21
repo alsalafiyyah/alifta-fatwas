@@ -2,26 +2,13 @@
 layout: default
 ---
 
-<ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-  <li itemprop="itemListElement" itemscope
-          itemtype="https://schema.org/ListItem">
-    <a itemprop="item" href="{{ site.url }}"><span itemprop="name">Home</span></a>
-    <meta itemprop="position" content="1" />
-  </li>
-  <li itemprop="itemListElement" itemscope
-          itemtype="https://schema.org/ListItem">
-    <span itemprop="name" class="active">{{ page.title }}</span>
-    <meta itemprop="position" content="2" />
-  </li>
-</ol>
-
 <article>
 {% for post in site.categories[page.category] %}
-  {% if post.locale == 'en' %}
-   {{ post.title }}
+ {% if post.locale == 'en' %}
+  <li>{{ post.title }}</li>
   {% else %}
-   {{ post.title }}
-  {% endif %}
+  <li>{{ post.title }}</li>
+ {% endif %}
 {% endfor %}
   <ol>
     {% for p in site.categories[page.category] %}

@@ -6,6 +6,12 @@ permalink: /en/category/walabara/
 
 {% include breadcrumbs.html %}
 <article>
+  
+{% assign resindex = site.posts | where:"category","walabara", | where:"locale","en" | sort:"title" %}
+ {% for post in resindex %}
+ <p>{{ post.title | truncate: 52 }}</p>
+ {% endfor %}
+  
 <div class="table-wrapper" itemscope itemtype="https://schema.org/Table">
   <table>
     <tbody>

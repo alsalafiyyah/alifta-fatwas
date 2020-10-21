@@ -9,7 +9,7 @@ permalink: /en/category/walabara/
 <div class="table-wrapper" itemscope itemtype="https://schema.org/Table">
   <table>
     <tbody>
-      {% for post in site.categories.walabara %}
+      {% for post in site.categories.walabara | where:"lang","en" %}
       <tr>
         <td>{{ post.hijri }}</td>
         <td>

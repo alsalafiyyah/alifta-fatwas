@@ -35,7 +35,6 @@ layout: default
 <div class="box">
   <h2><a href="{{ '/walabara/' | prepend:site.baseurl }}">Al-Wala Wal-Bara'</a></h2>
 <ul class="posts">
-  {% assign assign posts = site.categories | where:"lang","en" %}
   {% for post in site.categories.walabara | where:"locale", "en" | limit:3 %}
     {% if post.url %}
     <li><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>

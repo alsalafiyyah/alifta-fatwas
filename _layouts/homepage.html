@@ -48,15 +48,20 @@ layout: default
 <div class="box">
   <h2><a href="{{ '/walabara/' | prepend:site.baseurl }}">Al-Wala Wal-Bara'</a></h2>
 <ul class="posts">
-  {% for post in site.categories.walabara | where:"locale", "en" | limit:3 %}
-    {% if post.url %}
-    <li><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+{% for c in site.categories.walabara %}
+  {% assign selectedPosts = c.last | where:"locale", "ar" %}
+  {% if selectedPosts.size > 0 %}
+    <li>Category {{ c.first }} :
+      <ul>
+        {% for post in selectedPosts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
     </li>
-    {% endif %}
-    {% else %}
-    {{site.data.settings.page.no-fatwas}}
-  {% endfor %}
-</ul>
+  {% endif %}
+  {% else %}
+  {{site.data.settings.page.no-fatwas}}
+{% endfor %}
 </div>
   
 </article>

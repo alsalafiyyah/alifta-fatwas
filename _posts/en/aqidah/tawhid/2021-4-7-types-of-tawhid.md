@@ -4,11 +4,15 @@ publisher: alsalafiyyah@icloud.com
 title: "Types of Tawhid"
 date: 07 April 2021
 hijri: 25 Sha'ban 1442 AH (25/8/1442AH)
-source: "Fatwas of Permanent Commitee no. 8943-1"
+source: "Fatwas of Permanent Commitee"
 lang: en
 end: true
 locale: en
 uid: types-of-tawhid
+vol: 1
+chapter: Aqidah
+fatwa_number: 8943
+question_number: 1
 excerpt: "There are three types of Tawhid: Tawhid-ul-Rububiyyah (Oneness of Allah’s Lordship), Tawhid-ul-Uluhiyyah (Oneness of Worship) and Tawhid-ul-Asma’ wal-Sifat (Oneness of Allah’s Names and Attributes)."
 muftis:
   chairman: 

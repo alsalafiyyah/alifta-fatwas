@@ -4,11 +4,15 @@ publisher: alsalafiyyah@icloud.com
 title: "Les différentes catégories du Tawhîd"
 date: 07 April 2021
 hijri: 25 Sha'ban 1442 AH (25/8/1442AH)
-source: "Fatwas du Comité Permanent numéro 8943-1"
+source: "Fatwas du Comité Permanent"
 lang: fr
 end: true
 locale: fr
 uid: types-of-tawhid
+vol: 1
+chapter: Aqidah
+fatwa_number: 8943
+question_number: 1
 excerpt: "Les catégories du Tawhîd (l'Unicité) sont au nombre de trois: Tawhîd Ar-Roboubiyya (l'Unicité du Seigneur), Tawhîd-Al-'Olouhiyya (l'Unicité de Sa divinité) et Tawhîd Al-'Asmâ' was-Sifât (l'Unicité de Ses noms et attributs)."
 muftis:
   chairman: 

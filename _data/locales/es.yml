@@ -50,6 +50,10 @@ post:
   chairman: Vicejefe
   member: Miembro
   suggestion: te pueden interesar
+  chapter: Tomo
+  fatwa_number: Fatwa N° 
+  question: Pregunta
+  group: Grupo
 
 binbaz:
   name: Shaykh Abdul-Aziz Ibn Baz

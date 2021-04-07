@@ -42,7 +42,7 @@ post:
   related_fatwas: Related fatwas
   comments: Comments
   book: Book
-  vol: Vol
+  vol: Volume
   end: "May Allah grant us success. May peace and blessings be upon our Prophet Muhammad, his family, and Companions."
   deputy: Deputy
   deputy_chairman: Deputy Chairman
@@ -50,6 +50,10 @@ post:
   shaykh: Shaykh
   source: Source
   translate: Translate
+  chapter: Chapter
+  fatwa_number: Fatwa no. 
+  question: Question
+  group: Group
 
 binbaz:
   name: Shaykh Abdul-Aziz Ibn Baz

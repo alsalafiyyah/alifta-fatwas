@@ -1,0 +1,82 @@
+name: Bahasa Indonesia
+
+blog:
+  title: Salafy
+  description: 
+  author: Instagram@Alsalafiyyah
+  site_url: /id/
+
+menu:
+  - name: "Beranda"
+    link: /
+    active: home
+  - name: Muqolat
+    link: /muqolat/
+    active: muqolat
+  - name: Fatwas
+    link: /fatwas/
+    active: fatwas
+  - name: Browse
+    link: /topic
+    active: topic
+  - name: Unduhan
+    link: /downloads/
+    active: downloads
+  - name: Wahhabiyah
+    link: /wahhabism/
+    active: wahhabiyah
+  - name: Penolakan
+    link: /refutations/
+    active: refutations
+    
+page:
+  next: Selanjutnya
+  prev: Sebelumnya
+  more: Lebih
+  categories: Kategori
+  basmalah: "En el nombre de Alá, el Compasivo, el Misericordioso!"
+  contact: Kontak
+
+post:
+  dated: "Publicado el:"
+  print: Print
+  share: Bagikan
+  related_fatwas: Fatwas relacionados
+  comments: Komentar
+  book: Buku
+  vol: Vol
+  end: "Wabillahittaufiq, Wa Shallallahu 'ala Nabiyyina Muhammad, wa Alihi wa Shahbihi wa Sallam"
+  deputy: Ketua
+  chairman: Wakil Ketua Komite
+  member: Anggota
+  suggestion: te pueden interesar
+
+binbaz:
+  name: Shaykh Abdul-Aziz Ibn Baz
+  url: /biography/binbaz/
+
+books: 
+  - name: "Salah (Prayers)"
+    link: "/books/salah/"
+  - name: "Shawm (Fasting)"
+    link: "/books/shawm/"
+  - name: "Zakah (Charity)"
+    link: "/books/zakah/"
+  - name: "Taharah (Purification)"
+    link: "/books/taharah/"  
+  - name: "Da'wah (Calling to Allah)"
+    link: "/books/dawah/"
+  - name: "Hisbah"
+    link: "/books/hisbah/"
+  - name: "Ilm (Knowledge)"
+    link: "/books/ilm/"
+  - name: "Nikah (Marriage)"
+    link: "/books/nikah/"
+  - name: "Talaq (Divorce)"
+    link: "/books/talaq/"
+  - name: "Women"
+    link: "/books/women/"
+  - name: "Iman (Faith)"
+    link: "/books/iman/"
+  - name: "Al-Wala' Wal-Bara'"
+    link: "/books/walabara/"

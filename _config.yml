@@ -7,7 +7,7 @@ markdown:       kramdown
 safe: true
 future: true
 timezone: Asia/Riyadh
-locales: ["en", "ar", "es", "fr"]
+locales: ["en", "ar", "es", "fr", "id"]
 remote_theme: alsalafiyyah/massively-jekyll-theme
 include:
   - _pages
@@ -55,6 +55,14 @@ defaults:
       layout: post
       locale: fr
       permalink: /fr/:title
+  - scope:
+      path: _posts/id/**
+      type: posts
+    values:
+      layout: post
+      locale: id
+      permalink: /id/:title
+      
   # config pages
   - scope: 
       path: _en/**

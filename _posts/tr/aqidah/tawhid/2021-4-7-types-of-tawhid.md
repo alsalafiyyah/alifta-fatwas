@@ -9,6 +9,10 @@ lang: tr
 end: true
 locale: tr
 uid: types-of-tawhid
+vol: 1
+chapter: Aqidah
+fatwa_number: 8943
+question_number: 1
 excerpt: "Tevhid üç çeşittir: Rububiyyet Tevhidi, Uluhiyyet Tevhidi ve İsim ve Sıfat Tevhidi."
 muftis:
   chairman: 

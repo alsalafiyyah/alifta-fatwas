@@ -4,7 +4,7 @@ publisher: alsalafiyyah@icloud.com
 title: "Tevhid'in Çeşitleri"
 date: 07 April 2021
 hijri: 25 Sha'ban 1442 AH (25/8/1442AH)
-source: "Fatwas du Comité Permanent numéro 8943-1"
+source: "Bilimsel Araştırma ve Fetva Daimi Komisyonu 8943-1 no'lu fetvadan"
 lang: tr
 end: true
 locale: tr

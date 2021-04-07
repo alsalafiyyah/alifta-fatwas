@@ -9,7 +9,27 @@
     {{ site.source.name}}
    </dd>
 {% endif %}
-
+{% if page.vol %}
+  {{ page.vol}}
+    {% else %}
+  {{ site.vol.name}}
+{% endif %}
+{% if page.chapter %}
+  {{ page.chapter}}
+    {% else %}
+  {{ site.chapter.name}}
+{% endif %}
+{% if page.fatwa_number %}
+  {{ page.fatwa_number}}
+    {% else %}
+  {{ site.fatwa_number.name}}
+{% endif %}
+{% if page.question_number %}
+  {{ page.question_number}}
+    {% else %}
+  {{ site.question_number.name}}
+{% endif %}
+  
 {% if page.shaykhs %}
   <dt>{{ site.data.locales[page.locale].post.muftis }}:</dt>
    <dd>

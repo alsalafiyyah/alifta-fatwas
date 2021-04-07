@@ -4,11 +4,15 @@ publisher: alsalafiyyah@icloud.com
 title: "Tipos de Unicidad Divina"
 date: 07 April 2021
 hijri: 25 Sha'ban 1442 AH (25/8/1442AH)
-source: "Fatwas del Comité Permanente N°8943-1"
+source: "Fatwas del Comité Permanente"
 lang: es
 end: true
 locale: es
 uid: types-of-tawhid
+vol: 1
+chapter: Aqidah
+fatwa_number: 8943
+question_number: 1
 excerpt: "Hay tres tipos de Unicidad: Unicidad de Señorío, Unicidad de Divinidad y Unicidad de Nombres y Atributos. La primera: es testificar que Allah es el Único Creador, Sustentador, que da la vida y la muerte y el que domina y controla todos los asuntos de los cielos y la tierra."
 muftis:
   chairman: 

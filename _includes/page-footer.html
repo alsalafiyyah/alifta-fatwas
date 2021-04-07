@@ -10,20 +10,23 @@
    </dd>
 {% endif %}
 {% if page.vol %}
+  Vol
   {{ page.vol}}
     {% else %}
   {{ site.vol.name}}
 {% endif %}
 {% if page.chapter %}
+  Chapter on 
   {{ page.chapter}}
     {% else %}
   {{ site.chapter.name}}
 {% endif %}
 {% if page.fatwa_number %}
+  Fatwa no. 
   {{ page.fatwa_number}}
     {% else %}
   {{ site.fatwa_number.name}}
-{% endif %}
+{% endif %} - 
 {% if page.question_number %}
   {{ page.question_number}}
     {% else %}

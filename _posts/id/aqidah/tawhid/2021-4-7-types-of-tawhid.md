@@ -4,11 +4,15 @@ publisher: alsalafiyyah@icloud.com
 title: "Macam-macam Tauhid"
 date: 07 April 2021
 hijri: 25 Sha'ban 1442 AH (25/8/1442AH)
-source: "Fatwa Komite Tetap nomor 8943-1"
+source: "Fatwa Komite Tetap"
 lang: id
 end: true
 locale: id
 uid: types-of-tawhid
+vol: 1
+chapter: Aqidah
+fatwa_number: 8943
+question_number: 1
 excerpt: "Ada tiga macam tauhid, yaitu Tauhid Rububiyyah, Tauhid Uluhiyyah, dan Tauhid Asma dan Sifat. Tauhid Rububiyyah adalah mengesakan Allah Ta'ala dalam hal menciptakan, memberi rizki, menghidupkan, mematikan, dan semua bentuk pengelolaan dan pengaturan kerajaan langit dan bumi."
 muftis:
   chairman: 

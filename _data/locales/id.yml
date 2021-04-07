@@ -25,7 +25,7 @@ menu:
   - name: Wahhabiyah
     link: /wahhabism/
     active: wahhabiyah
-  - name: Penolakan
+  - name: Bantahan
     link: /refutations/
     active: refutations
     
@@ -34,17 +34,17 @@ page:
   prev: Sebelumnya
   more: Lebih
   categories: Kategori
-  basmalah: "En el nombre de Alá, el Compasivo, el Misericordioso!"
+  basmalah: "Dengan Menyebut Nama Allah Yang Maha Pengasih Lagi Maha Penyayang"
   contact: Kontak
 
 post:
-  dated: "Publicado el:"
+  dated: "Dipublikasikan pada"
   print: Print
   share: Bagikan
-  related_fatwas: Fatwas relacionados
+  related_fatwas: Fatwa Terkait
   comments: Komentar
   book: Buku
-  vol: Vol
+  vol: Volume
   end: "Wabillahittaufiq, Wa Shallallahu 'ala Nabiyyina Muhammad, wa Alihi wa Shahbihi wa Sallam"
   deputy: Ketua
   chairman: Wakil Ketua Komite

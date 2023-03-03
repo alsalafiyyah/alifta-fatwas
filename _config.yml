@@ -8,7 +8,7 @@ safe: true
 future: true
 timezone: Asia/Riyadh
 locales: ["en", "ar", "es", "fr", "id", "tr"]
-remote_theme: alsalafiyyah/massively-jekyll-theme
+remote_theme: alsalafiyyah
 include:
   - _pages
   

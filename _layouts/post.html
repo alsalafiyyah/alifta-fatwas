@@ -16,7 +16,7 @@ layout: default
   <h3 itemprop="name headline">{{ page.title }}</h3>
 </header>
  
-  <div itemprop="articleBody">
+  <div itemprop="articleBody" {% if page.locale == 'ar' %}style="dir: rtl !important; font-size: 18px;"{% endif %}>
   {{ content }}
 {% if page.end %}
  {{ site.data.locales[page.locale].post.end }}

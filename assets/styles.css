@@ -35,20 +35,20 @@ ul.lang li {
   cursor: default;
   opacity: 0.6;
 }
-
-.ar {
+.ar, #ar {
  direction: rtl! important;
  text-align: right! important;
  font-family: 'Noto Naskh Arabic', serif; 
  font-size: 18px;
 }
-.ar p {
+.ar p , #ar p {
  direction: rtl! important;
  text-align: right! important;
  font-family: 'Noto Naskh Arabic', serif; 
 }
 .ar h3 {
  font-family: 'Cairo', sans-serif;
+  direction: rtl! important;
 }
 .ar h1 {
  font-family: 'Cairo', sans-serif;

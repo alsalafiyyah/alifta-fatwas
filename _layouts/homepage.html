@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<article>
+<div class="container-md">
+
 <ul class="post-list">
 {% for c in site.categories | limit:3 %}
   {% assign selectedPosts = c.last | where:"locale", "en" %}
@@ -38,5 +39,5 @@ layout: default
   {% endif %}
 {% endfor %}
 </ul>
-  
-</article>
+
+</div>
